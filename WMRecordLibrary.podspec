@@ -1,5 +1,5 @@
 pod::Spec.new do |s|
-  s.name         = 'VideoRecord'
+  s.name         = 'WMRecordLibrary'
   s.version      = '0.0.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/WangMing1998/videoRecordFramework'
