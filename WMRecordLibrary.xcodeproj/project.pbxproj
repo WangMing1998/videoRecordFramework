@@ -355,6 +355,11 @@
 		EEC646451E6906380085CD6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -373,6 +378,7 @@
 					"$(PROJECT_DIR)/WMRecordLibrary",
 				);
 				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangming.WMRecordLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +391,11 @@
 		EEC646461E6906380085CD6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
